@@ -3,8 +3,12 @@
 ## Prompts used to generate the app
 
 1. Build a pipeline of the steps you would follow to implement an app called HabitTracker in C++ with the user stories contained in user_stories.md 
+
 2. Follow your pipeline step by step, implementing the app in the folder LAB06
-4. Generate detailed and clear documentation about the app you implemented
+
+3. Generate detailed and clear documentation about the app you implemented
+
+4. Each time a new habit is created it overwrittes the one that already exists. Fix the error without affecting the existing functionalities.
 
 ## Screenshots of the final app
 
