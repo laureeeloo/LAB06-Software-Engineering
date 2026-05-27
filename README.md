@@ -31,3 +31,7 @@
 We have learnt that copilot is a really powerful tool that can be very useful if used correctly. Still, we need to formulate specific and efficient prompts and revise everything it implements.
 
 It's important to test each functionality, since we almost overlook that each time we created a new habit it replaced the already existing one.
+
+## Github Repository Link
+
+https://github.com/laureeeloo/LAB06-Software-Engineering.git
