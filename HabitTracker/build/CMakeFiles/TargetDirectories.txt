@@ -1,0 +1,3 @@
+/home/laura/Escriptori/3r carrera/Enginyeria de Software/Lab06/HabitTracker/build/CMakeFiles/habit_tracker.dir
+/home/laura/Escriptori/3r carrera/Enginyeria de Software/Lab06/HabitTracker/build/CMakeFiles/edit_cache.dir
+/home/laura/Escriptori/3r carrera/Enginyeria de Software/Lab06/HabitTracker/build/CMakeFiles/rebuild_cache.dir

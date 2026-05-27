@@ -1,0 +1,21 @@
+# Configuración de Doxygen para HabitTracker
+
+PROJECT_NAME           = "HabitTracker"
+PROJECT_BRIEF          = "Aplicación de Seguimiento de Hábitos en C++"
+OUTPUT_DIRECTORY       = ./docs
+INPUT                  = ./include ./src
+FILE_PATTERNS          = *.h *.cpp
+RECURSIVE              = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_MAN           = NO
+HTML_OUTPUT            = html
+EXTRACT_ALL            = NO
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = YES
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+ALPHABETICAL_INDEX     = YES
+COLS_IN_ALPHA_INDEX    = 5
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_LACKED     = NO

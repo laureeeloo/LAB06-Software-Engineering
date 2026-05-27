@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O2 CMakeFiles/habit_tracker.dir/src/main.cpp.o CMakeFiles/habit_tracker.dir/src/Habit.cpp.o CMakeFiles/habit_tracker.dir/src/Command.cpp.o CMakeFiles/habit_tracker.dir/src/HabitTracker.cpp.o CMakeFiles/habit_tracker.dir/src/FileManager.cpp.o -o bin/habit_tracker  -lstdc++fs 
