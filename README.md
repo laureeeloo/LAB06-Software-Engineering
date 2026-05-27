@@ -9,11 +9,17 @@
 ## Screenshots of the final app
 
 ![Main interface](image.png)
+
 ![Calendar](image-1.png)
+
 ![Create an habit](image-2.png)
+
 ![Undo](image-3.png)
+
 ![Save](image-4.png)
+
 ![Exit](image-5.png)
+
 ![Load data](image-6.png)
 
 ## Lessons learned in this practice
