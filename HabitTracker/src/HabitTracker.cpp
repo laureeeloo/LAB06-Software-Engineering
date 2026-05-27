@@ -7,6 +7,20 @@ std::string HabitTracker::generateHabitId() {
     return "HABIT_" + std::to_string(nextHabitId++);
 }
 
+void HabitTracker::updateNextHabitIdFrom(const std::string& habitId) {
+    const std::string prefix = "HABIT_";
+    if (habitId.rfind(prefix, 0) == 0) {
+        try {
+            int idValue = std::stoi(habitId.substr(prefix.size()));
+            if (idValue >= nextHabitId) {
+                nextHabitId = idValue + 1;
+            }
+        } catch (const std::exception&) {
+            // Ignorar IDs no numéricos.
+        }
+    }
+}
+
 // Implementación AddHabitCommand
 HabitTracker::AddHabitCommand::AddHabitCommand(HabitTracker& t, const Habit& h)
     : tracker(t), habit(h), habitId(h.getId()) {}
@@ -144,4 +158,5 @@ void HabitTracker::clear() {
 
 void HabitTracker::loadHabit(const Habit& habit) {
     habits[habit.getId()] = habit;
+    updateNextHabitIdFrom(habit.getId());
 }

@@ -26,6 +26,7 @@ private:
      * @return ID único
      */
     std::string generateHabitId();
+    void updateNextHabitIdFrom(const std::string& habitId);
 
     // Comandos internos
     class AddHabitCommand : public Command {
